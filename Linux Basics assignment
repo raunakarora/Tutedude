@@ -5,12 +5,12 @@ Rename example.txt to renamed_example.txt using mv
 
 Commands:
 
-a) mkdir test_dir
-b) cd test_dir
-c) touch example.txt
-d) mv example.txt renamed_example.txt
-________________________________________________________
+a) mkdir test_dir                      (Creates a new directory named test_dir )
+b) cd test_dir                         (Moves inside the test_dir  directory)
+c) touch example.txt                   (Creates an empty file named example.txt)
+d) mv example.txt renamed_example.txt  (Renames example.txt to renamed_example.txt)
 
+________________________________________________________
 2. Viewing File Contents
 Use cat to display the contents of /etc/passwd.
 Display only the first 5 lines of /etc/passwd using head.
@@ -18,49 +18,45 @@ Display only the last 5 lines of /etc/passwd using tail.
 
 Commands:
 
-a) cat /etc/passwd
-b) head -n 5 /etc/passwd
-c) tail -n 5 /etc/passwd
-________________________________________________________
+a) cat /etc/passwd             (display the contents of /etc/passwd)
+b) head -n 5 /etc/passwd       (Display only the first 5 lines of /etc/passwd)
+c) tail -n 5 /etc/passwd       (Display only the last 5 lines of /etc/passwd)
 
+________________________________________________________
 3.Searching for Patterns
 Use grep to find all lines containing the word "root" in /etc/passwd.
 
 Command:
 
-a) grep root /etc/passwd
+a) grep root /etc/passwd   (find all lines containing the word "root" in /etc/passwd)
 
 ________________________________________________________
-
-
 4. Zipping and Unzipping
 Compress the test_dir directory into a file named test_dir.zip using zip.
 Unzip test_dir.zip into a new directory named unzipped_dir.
 
 Commands:
 
-a) zip -r test_dir.zip test_dir
-b) mkdir unzipped_dir
-c) unzip test_dir.zip -d unzipped_dir
+a) zip -r test_dir.zip test_dir         (Compress the test_dir directory into a file named test_dir.zip)
+b) mkdir unzipped_dir                   (Creates a new directory named unzipped_dir)
+c) unzip test_dir.zip -d unzipped_dir   (Unzip test_dir.zip into a new directory named unzipped_dir.)
 
 ________________________________________________________
-
 5. Downloading Files
 Use wget to download a file from a URL (e.g., https://example.com/sample.txt).
 
 Command:
 
-a) wget https://example.com/sample.txt
+a) wget https://example.com/sample.txt       (wget to download a file)
 
 ________________________________________________________
-
 6. Changing Permissions
 Create a file named secure.txt and change its permissions to read-only for everyone using chmod.
 
 Commands:
 
-a) touch secure.txt
-b) chmod 444 secure.txt
+a) touch secure.txt                  (Create a file named secure.txt)
+b) chmod 444 secure.txt              (Change its permissions to read-only for everyone)
 
 _______________________________________________________
 
@@ -69,6 +65,5 @@ Use export to set a new environment variable called MY_VAR with the value "Hello
 
 Commands:
 
-a) export MY_VAR="Hello, Linux!"
-b) echo $MY_VAR
-
+a) export MY_VAR="Hello, Linux!"      (Set a new environment variable called MY_VAR with the value "Hello, Linux!")
+b) echo $MY_VAR                       (Display the value of $MY_VAR environment variable)
